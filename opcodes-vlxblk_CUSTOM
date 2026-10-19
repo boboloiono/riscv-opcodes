@@ -1,0 +1,5 @@
+# Indexed block loads (custom-1).
+# The block length is configured separately by vsetblklen.
+vlxblkei8.v   vd rs1 vs2 31..25=0x0c 14..12=0x0 6..2=0x0a 1..0=0x3
+vlxblkei16.v  vd rs1 vs2 31..25=0x0c 14..12=0x5 6..2=0x0a 1..0=0x3
+vsetblklen    rs1 31..25=0x0f 24..20=0x0 14..12=0x0 11..7=0x0 6..2=0x0a 1..0=0x3
